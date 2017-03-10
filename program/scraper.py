@@ -111,4 +111,6 @@ list_to_csv(data=all_city,
             dropvar=False,
             name='villes_{}.csv'.format(date))
 
+driver.quit()
+print("Done!")
 # End
